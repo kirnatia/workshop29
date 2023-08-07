@@ -25,7 +25,7 @@ const SinglePlayer = ({ APIURL }) => {
   };
 
   const handleBackToList = () => {
-    navigate(-1); // Go back to the previous page in the history
+    navigate(-1); 
   };
 
   if (!player) {
@@ -35,6 +35,7 @@ const SinglePlayer = ({ APIURL }) => {
   return (
     <div>
       <h2>Player Details</h2>
+      <p>Id: {player.id}</p>
       <p>Name: {player.name}</p>
       <p>Breed: {player.breed}</p>
       <p>Status: {player.status}</p>

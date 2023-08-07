@@ -1,0 +1,22 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top:15px;
+    margin-top: 0;
+    background:linear-gradient(45deg, #b9b7b7 30%, #666666 30%, #666666 60%, #CCCCCC 60%, #CCCCCC 90%);
+    border-style:groove;
+    border-bottom-width: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-weight: 700;
+   
+    
+    font-size: larger;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color:#093d1d;
+  }
+  
